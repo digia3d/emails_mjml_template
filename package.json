@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "yarn": "^1.22.19"
+  },
+  "name": "emails_template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:digia3d/emails_template.git",
+  "author": "Aleksandra Ujvari <ujvari65@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "mjml --watch src/index.mjml --output src/index.html",
+    "server": "five-server src --port=3000",
+    "dev": "concurrently \"yarn start\" \"yarn server\"",
+    "build": "mjml src/index.mjml --output src/index.html"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "five-server": "^0.1.9",
+    "mjml": "^4.14.1"
+  }
+}

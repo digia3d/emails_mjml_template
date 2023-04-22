@@ -1,0 +1,11 @@
+<mjml>
+  <mj-body background-color="#ffffff">
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text>
+          Hello World!!!!! I am Alex and you?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
