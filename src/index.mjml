@@ -1,11 +1,227 @@
 <mjml>
-  <mj-body background-color="#ffffff">
+  <mj-head>
+    <mj-breakpoint width="600px" />
+    <mj-attributes>
+      <mj-all color="#2c2c2c" font-family="Arial" padding="0" />
+      <mj-class name="body-text" font-size="14px" line-height="22px" />
+      <mj-class name="list-text" padding-top="10px" font-size="14px" line-height="28px" />
+      <mj-class name="btn" background-color="#3d0383" color="#ffffff" font-size="14px" font-weight="500" line-height="22px" fluid-on-mobile="true" align="center" inner-padding="7px 103px" border-radius="8px" />
+      <mj-class name="footer-text" font-size="12px" line-height="18px" />
+
+      <mj-class name="benefit" padding="20px 5px 0 5px" />
+      <mj-class name="benefit-img" align="center" with="50px" height="150px" padding="0 10px 0 10px" />
+      <mj-class name="benefit-title" align="center" padding-top="15px" font-size="14px" font-weight="700" line-height="18px" />
+      <mj-class name="benefit-content" align="center" padding-top="10px" font-size="12px" line-height="18px" />
+
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .body-anchor-text {
+        display: inline;
+        color: #3f1400;
+        font-size: 14px;
+        line-height: 22px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .text-gray {
+        color: #3d0383;
+      }
+
+      .footer-anchor-text {
+        display: inline;
+        color: #3f3e3e;
+        font-size: 12px;
+        line-height: 18px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </mj-style>
+    <mj-style>
+      .body-anchor-text:hover,
+      .footer-anchor-text:hover {
+        text-decoration: underline !important;
+      }
+
+      .btn-dark-outline a:hover,
+      .btn-dark a:hover {
+        color: #ffffff !important;
+        background-color: #212529 !important;
+        border-color: #ffffff !important;
+      }
+
+      .btn-dark-outline td:hover,
+      .btn-dark td:hover {
+        background-color: #212529 !important;
+      }
+
+      @media only screen and (max-width: 599px) {
+        .email-footer-img {
+          text-align: left !important;
+          padding-top: 20px !important;
+        }
+
+        .footer {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#dbb4f9">
+    <!-- Email Title -->
     <mj-section>
-      <mj-column width="100%">
-        <mj-text>
-          Hello World!!!!! I am Alex and you?
+      <mj-group>
+        <mj-column>
+          <mj-text align="center" padding="5px 0" color="#28252b" font-size="15px" font-weight="bold" line-height="18px">
+            Full Stack Developer
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Email Title -->
+
+    <!-- Email Header -->
+    <mj-section>
+      <mj-group>
+        <mj-column background-color="#ffffff" padding="10px">
+          <mj-image src="images/logo_dark.jpg" alt="logo" width="140px" height="50px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Email Header -->
+
+    <!-- Hero Image -->
+    <mj-section>
+      <mj-group>
+        <mj-column>
+          <mj-image src="images/dark.jpg" alt="code sign with text A3D" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Hero Image -->
+
+    <!-- Main Content -->
+    <mj-section background-color="#ffffff">
+      <mj-group>
+        <mj-column padding="20px">
+          <mj-text mj-class="body-text">
+            Hi <strong>user</strong>!<br />
+            <br />
+            Are you looking for a talented web developer who can take your online presence to the next level? Look no further. As an expert in HTML, CSS, JavaScript, jQuery, React, NodeJS, Ruby On Rails, PostgreSQL, API, and logo design, I specialize in creating custom, responsive websites that truly showcase your business. My portfolio includes:
+          </mj-text>
+          <mj-text mj-class="list-text">
+            1. Custom websites that attract and engage your target audience
+          </mj-text>
+          <mj-text mj-class="list-text">
+            2. Eye-catching advertisements that drive conversions and boost your bottom line
+          </mj-text>
+          <mj-text mj-class="list-text">
+            3. Expertly designed logos that represent your brand and set you apart from the competition
+          </mj-text>
+          <mj-button href="https://web.whatsapp.com/send?phone=3810616483485" target="_blank" css-class="btn-dark-outline" mj-class="btn" padding-top="20px" background-color="transparent" border="solid 2px #3d0383" color="#393636" font-weight="bold">
+            Let's Chat
+          </mj-button>
+          <mj-text mj-class="body-text" padding-top="20px">
+            Let's collaborate and bring your vision to life. <a href="https://fantastic-alex-portfolio.netlify.app/#contact" target="_blank" class="body-anchor-text">Contact me today</a> to learn more about my services and how I can help take your online presence to the next level.
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Main Content -->
+
+    <!-- Benefits -->
+    <mj-wrapper padding="10px 20px 20px" background-color="#ffffff">
+      <mj-section background-color="#807d7d" border-radius="5px 5px 0 0">
+        <mj-group>
+          <mj-column padding-top="20px">
+            <mj-text align="center" font-size="16px" font-weight="700" line-height="22px">
+              My Recent Work
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="#807d7d">
+        <mj-column mj-class="benefit">
+          <mj-image mj-class="benefit-img" src="https://i.ibb.co/CzFngtz/cat.png" alt="Cat Galery" />
+          <mj-text mj-class="benefit-title">
+            Cat Galery
+          </mj-text>
+          <mj-text mj-class="benefit-content">
+            The templates in the HTML-Email repository are all built using HTML and CSS, and they can be customized to meet your specific needs.
+          </mj-text>
+        </mj-column>
+
+        <mj-column mj-class="benefit">
+          <mj-image mj-class="benefit-img" src="https://i.ibb.co/YbgKhfz/hogwarts.png" alt="Hogvarts School of Magic" />
+          <mj-text mj-class="benefit-title">
+            Hogvarts School of Magic
+          </mj-text>
+          <mj-text mj-class="benefit-content">
+            This is a fun app for Harry Potter fans who want to check which Hogwarts house they would fit into.
+          </mj-text>
+        </mj-column>
+
+        <mj-column mj-class="benefit">
+          <mj-image mj-class="benefit-img" src="https://i.ibb.co/60cW5zP/weather.png" alt="Weather App" />
+          <mj-text mj-class="benefit-title">
+            Weather App
+          </mj-text>
+          <mj-text mj-class="benefit-content">
+            This is a metrics webapp that could help users to see the curent weather and weather for five days in the future.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#807d7d" border-radius="0 0 5px 5px">
+        <mj-group>
+          <mj-column>
+            <mj-button href="https://github.com/digia3d?tab=repositories" target="_blank" css-class="btn-dark" mj-class="btn" padding="35px 15px 20px" background-color="#000000" border="solid 2px #3d0383" color="#ffffff" font-weight="bold">
+              Discover More
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+    <!-- End Benefits -->
+
+    <!-- Email Footer -->
+    <mj-section background-color="#807d7d" border-top="solid 2px #3d0383" padding="15px 20px">
+      <mj-column>
+        <mj-text mj-class="body-text">
+          Let's begin<br />
+          <span class="footer-anchor-text">Contact me today and make it easy on yourself.</span>
         </mj-text>
       </mj-column>
+      <mj-column>
+        <mj-image css-class="email-footer-img" src="images/logo_dark.jpg" alt="logo" width="93px" height="35px" align="right" padding="10px 0" />
+      </mj-column>
     </mj-section>
+    <!-- End Email Footer -->
+
+    <!-- Footer-->
+    <mj-section>
+      <mj-group>
+        <mj-column css-class="footer" padding="20px 0">
+          <mj-text mj-class="footer-text">
+            <strong> Send a message </strong><a href="mailto:ujvari65@gmail.com" class="text-gray">ujvari65@gmail.com</a>
+          </mj-text>
+          <mj-text mj-class="footer-text">
+            <a href="https://fantastic-alex-portfolio.netlify.app/#contact" target="_blank" class="footer-anchor-text ">Terms of Service</a>
+            |
+            <a href="https://fantastic-alex-portfolio.netlify.app/#contact" target="_blank" class="footer-anchor-text text-gray">Privacy Policy</a>
+          </mj-text>
+          <mj-text mj-class="footer-text" padding-top="5px">
+            Copyright © 2023 | All rights reserved.<br />
+            Designed by <a href="https://fantastic-alex-portfolio.netlify.app/" target="_blank" class="footer-anchor-text">Alex Ujvari</a><br />
+            Svetozara Markovica 193, 23000 Pančevo, Srbija<br />
+            | Call <a href="tel:+3810616483485" class="footer-anchor-text">+3810616483485</a>
+
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Footer -->
   </mj-body>
 </mjml>
