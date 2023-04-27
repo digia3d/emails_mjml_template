@@ -86,7 +86,7 @@
     <mj-section>
       <mj-group>
         <mj-column background-color="#ffffff" padding="10px">
-          <mj-image src="images/logo_dark.jpg" alt="logo" width="140px" height="50px" />
+          <mj-image src="https://i.ibb.co/mR4ppXR/logo-dark.jpg" alt="logo" width="140px" height="50px" />
         </mj-column>
       </mj-group>
     </mj-section>
@@ -96,7 +96,7 @@
     <mj-section>
       <mj-group>
         <mj-column>
-          <mj-image src="images/dark.jpg" alt="code sign with text A3D" />
+          <mj-image src="https://i.ibb.co/sbFtNsf/dark.jpg" alt="code sign with text A3D" />
         </mj-column>
       </mj-group>
     </mj-section>
@@ -195,7 +195,7 @@
         </mj-text>
       </mj-column>
       <mj-column>
-        <mj-image css-class="email-footer-img" src="images/logo_dark.jpg" alt="logo" width="93px" height="35px" align="right" padding="10px 0" />
+        <mj-image css-class="email-footer-img" src="https://i.ibb.co/mR4ppXR/logo-dark.jpg" alt="logo" width="93px" height="35px" align="right" padding="10px 0" />
       </mj-column>
     </mj-section>
     <!-- End Email Footer -->
